@@ -1,0 +1,21 @@
+{
+  "name": "kiosk_exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "exec": "npm run build && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/kiosk": "^0.5.1",
+    "@mysten/sui.js": "^0.41.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
